@@ -35,3 +35,19 @@ iframe#tela{
     width:267px;
     height:467px;
 }
+section#social{
+    display: flex;
+    flex-direction: column;
+}
+section#social img{
+    width: 50px;
+    margin:10px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px  #00000063;
+    box-sizing: border-box;
+}
+section#social img:hover{
+    transform: scale(1.2);
+    transition: transform 170ms ease-in-out, border 300ms;
+    border: 1.5px solid #f2de01;
+}
